@@ -1,0 +1,19 @@
+def is_leap(year):
+    leap = False
+    
+    # Logic: Divisible by 400 is always a leap year
+    if year % 400 == 0:
+        leap = True
+    # If not 400, but divisible by 100, it is NOT a leap year
+    elif year % 100 == 0:
+        leap = False
+    # If not 100, but divisible by 4, it is a leap year
+    elif year % 4 == 0:
+        leap = True
+        
+    return leap
+
+
+
+year = int(input())
+print(is_leap(y
