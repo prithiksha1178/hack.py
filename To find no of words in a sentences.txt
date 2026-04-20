@@ -1,0 +1,7 @@
+def count(s):
+   word=s.split()
+   c= len(word)
+   return c
+t=input("Enter the string:")
+p=count(t)
+print("No of words:",p)
