@@ -1,0 +1,17 @@
+def add(a,b):
+   return(a+b)
+def sub(a,b):
+   return(a-b)
+def mul(a,b):
+   return(a*b)
+def div(a,b):
+   return(a/b)
+#main routine
+c=add(1,2)
+print("Sum is :",c)
+d=sub(3,4)
+print("Sub is:",d)
+e=mul(2,3)
+print("Mul is:",e)
+f=div(3,4)
+print("Div is:",f)
