@@ -1,0 +1,4 @@
+def swap_case(p):
+   return p.swapcase()
+t=input("Enter the string:")
+print(swap_case(t))
