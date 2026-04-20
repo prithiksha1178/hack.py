@@ -1,0 +1,7 @@
+def swap(word1,word2):
+   n_word1=word2[:2]+word1[2:]
+   n_word2=word1[:2]+word2[2:]
+   print(n_word1+" "+n_word2)
+t=input("Enter the string:")
+p=input("Enter the string:")
+swap(t,p)
