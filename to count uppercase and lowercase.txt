@@ -1,0 +1,12 @@
+def count(s):
+   up=0
+   l=0
+   for i in s:
+      if i.isupper():
+       up=up+1
+      elif i.islower():
+       l=l+1
+   print("No of uppercase:",up)
+   print("no of lowercase:",l)
+p=input("Enter the string:")
+c=count(p)
