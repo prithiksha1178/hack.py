@@ -1,0 +1,12 @@
+program to find maxmium and minimum values from numeric tuple
+def find_min_max():
+   user=input("Enter the number separete by commas:")
+   numbers_list=user.split(",")
+   numbers=tuple(int(num)for num in numbers_list)
+   maxmium=max(numbers)
+   minimum=min(numbers)
+   print("Maxmium number is:",maxmium)
+   print("Miniumu number is:",minimum)
+
+#main routin
+find_min_max()
