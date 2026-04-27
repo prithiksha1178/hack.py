@@ -1,0 +1,6 @@
+str1=input("Enter the string:")
+str2=input("Enter the string:")
+str3=str1+str2
+str4=len(str3)
+print("length of string:",str4)
+print("Concatenate of two sring:",str3)

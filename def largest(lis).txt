@@ -1,0 +1,8 @@
+def largest(lis):
+   first=max(lis)
+   lis.remove(first)
+   for num in lis:
+      second=max(lis)
+   return second
+lis=[1,2,3]
+print(largest(lis))

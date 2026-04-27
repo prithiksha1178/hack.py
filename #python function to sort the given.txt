@@ -1,0 +1,7 @@
+#python function to sort the given sentence
+def sort_word(s):
+   word=s.split()
+   word.sort()
+   return " ".join(word)
+p=input("Enter the string:")
+print("sort sentence:",sort_word(p))

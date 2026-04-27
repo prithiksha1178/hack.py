@@ -1,0 +1,13 @@
+#Pyrhon function to count how many even and odd num
+def count(n):
+   even=0
+   odd=0
+   for i in n:
+      if i%2==0:
+       even+=1
+      else:
+       odd+=1
+   return even,odd
+num=[10,25,47.3,98,78]
+even,odd=count(num)
+print("Even:",even,"odd:",odd)
