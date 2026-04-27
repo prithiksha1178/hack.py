@@ -1,0 +1,22 @@
+python program to craete  a list to store 5 to the existing elements of the list comphensions
+def add():
+   numbers=[10,20,30,40]
+   update=[num+5 for num in numbers]
+   return update
+result=add()
+print(result)
+[24bec023@mepcolinux expt6]$cat prog2.py
+#python prog to find traspose of a matrix
+def get_matrix():
+   rows=int(input("Enter the no of rows:"))
+   cols=int(input("Enter the no of colums:"))
+   print("Enter the matrix elements:")
+   matrix=[[int(input())for cols in range(cols)]for rows in range(rows)]
+   return matrix
+def transpose_matrix(matrix):
+   return[[row[i]for row in matrix]for i in range(len(matrix[0]))]
+matrix=get_matrix()
+result=transpose_matrix(matrix)
+print("Transpose matrix:")
+for row in result:
+   print(row)

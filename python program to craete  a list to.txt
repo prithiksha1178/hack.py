@@ -1,0 +1,7 @@
+python program to craete  a list to store 5 to the existing elements of the list comphensions
+def add():
+   numbers=[10,20,30,40]
+   update=[num+5 for num in numbers]
+   return update
+result=add()
+print(result)

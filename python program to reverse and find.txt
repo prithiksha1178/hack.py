@@ -1,0 +1,9 @@
+python program to reverse and find the palindrom ofa string
+def count_palindrome(string):
+   reversed_string=[s[::-1]for s in string]
+   palindrome=[s for s in reversed_string if s==s[::-1]]
+   return len(palindrome)
+
+string=["madam","hello","hi","world","level"]
+palindrome_count=count_palindrome(string)
+print("Number of palindrome:",palindrome_count)

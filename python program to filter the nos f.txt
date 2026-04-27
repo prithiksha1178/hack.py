@@ -1,0 +1,8 @@
+#python program to filter the nos for the given value
+def filter(nested_list,k):
+   return[[num for num in sublist if num > k] for sublist in nested_list]
+
+nested_list=[[1,2,3],[4,5,6],[7,8,9]]
+k=3
+filter_list=filter(nested_list,k)
+print("Filterd list is:",filter_list)

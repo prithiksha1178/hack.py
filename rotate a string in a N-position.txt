@@ -1,0 +1,9 @@
+#to rotate a string in a N-position
+def rotate(lis,i):
+   return lis[i:]+lis[:i]
+
+#main routin
+lis=["Apple","Banna","cherry","date"]
+po=2
+p=rotate(lis,po)
+print(p)

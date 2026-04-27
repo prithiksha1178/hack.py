@@ -1,0 +1,8 @@
+#Python function to sorted list of string into a single sorted list
+def merge(list1,list2):
+   m=list1+list2
+   m.sort()
+   return m
+list1=["a","b","c"]
+list2=["f","v","h"]
+print("Sorted list:\n",merge(list1,list2))

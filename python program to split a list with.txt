@@ -1,0 +1,14 @@
+python program to split a list with M element and append using looping statement subsequently,split the list into N chunks
+def split(m,n):
+   data=[]
+   for i in range(m):
+      data.append(i+1)
+   size=m//n
+   chunks=[]
+   for i in range(0,m,size):
+      chunks.append(data[i:i+size])
+   return chunks
+
+#main routin
+result=split(10,2)
+print(result)

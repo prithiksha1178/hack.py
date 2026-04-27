@@ -1,0 +1,8 @@
+#python program to square the  elements in the list using lamda function
+def square():
+   numbers=input("Enter the numbers:").split()
+   numbers=[int(num)for num in numbers]
+   squared=[(lambda x:x**2)(x)for x in numbers]
+   return squared
+result=square()
+print("square number:",result)
